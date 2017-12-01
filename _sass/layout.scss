@@ -180,3 +180,36 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .logo-hero {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    a {
+      img {
+        max-width: 110px;
+      }
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .col-menu {
+    display: none;
+  }
+
+  .col-logo {
+    text-align: center;
+    max-width: 100%;
+
+    a {
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}
